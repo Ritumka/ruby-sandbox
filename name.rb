@@ -1,5 +1,5 @@
 pp "Hello! What's your name?"
 
-user_name = gets
+user_name = gets.chomp
 
-pp "Your name is " + user_name.to_s + "!"
+puts "Your name is " + user_name.capitalize!.to_s + "!"
